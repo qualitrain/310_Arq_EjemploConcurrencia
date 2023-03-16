@@ -82,7 +82,6 @@ public abstract class Artista implements Runnable {
 			this.hiloActor.join();
 		}
 		catch(InterruptedException e){
-
 			return;
 		}
 	}
